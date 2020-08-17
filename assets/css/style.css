@@ -1,0 +1,24 @@
+body{
+    background-color:black;
+}
+
+h1{
+    color: red;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h2{
+    margin: 10px;
+    color:blanchedalmond;
+}
+
+button{
+    margin: 10px;
+    color: brown;
+}
+
+#all-machines{
+    display: flex;
+    justify-content:space-around ;
+}
