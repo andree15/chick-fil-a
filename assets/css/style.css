@@ -1,24 +1,36 @@
 body{
-    background-color:gray;
+    background-color:rgb(68, 67, 67);
 }
 
-h1{
-    color: rgb(144, 51, 51);
+#title{
+    color: rgb(233, 38, 38);
     font-size: 30px;
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-h2{
-    margin: 10px;
+#all-machines{
+    margin-top: 100px;
+    display: flex;
+    justify-content:space-around ;
+}
+
+div{
+    color:blanchedalmond;  
+}
+
+.current{
     color:blanchedalmond;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.time-left{
+    font-size: 30px;
 }
 
 button{
     margin: 10px;
     color: brown;
-}
-
-#all-machines{
-    display: flex;
-    justify-content:space-around ;
 }

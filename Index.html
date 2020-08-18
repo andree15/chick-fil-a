@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
     
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    
 
     <title>Chick-Fil-A Simulation</title>
 
 </head>
 <body>
 
-<h1>welcome to Chick-Fil-A</h1>
+<h1 id="title">Welcome to
+    <img width="100px" id="logo" src="/assets/images/chick-fil-a-png-logo-photo-4843.png">
+    Simulator</h1>
 
     <div id="all-machines">
         <div id="mach-container">
@@ -30,8 +29,8 @@
             </div>
 
             <div>
-                <h2>Current Timer</h2>
-                <div>time left <span id="current1"></span></div>
+                <h2 class="current">Current Timer</h2>
+                <div class="time-left" >Time Left: <span id="current1"></span></div>
             </div>
         </div>
 
@@ -46,8 +45,8 @@
             </div>
 
             <div>
-                <h2>Current Timer</h2>
-                <div> time left <span id="current2"></span></div>
+                <h2 class="current">Current Timer</h2>
+                <div class="time-left">Time Left:<span id="current2"></span></div>
             </div>
         </div>
 
@@ -62,8 +61,8 @@
             </div>
 
             <div>
-                <h2>Current Timer</h2>
-                <div> time left <span id="current3"></span></div>
+                <h2 class="current">Current Timer</h2>
+                <div class="time-left">Time Left:<span id="current3"></span></div>
             </div>
         </div>
 
@@ -78,13 +77,15 @@
             </div>
 
             <div>
-                <h2>Current Timer</h2>
-                <div> time left <span id="current4"></span></div>
+                <h2 class="current">Current Timer</h2>
+                <div class="time-left">Time Left:<span id="current4"></span></div>
             </div>
         </div>
     </div>
 
-    <h1>Grills</h1>
+
+<!-- grill/fries/exp.timer
+    <h1 id="all-grills">Grills</h1>
     <div id="grills">
         <button id="grill-button" type="button" >Click me!</button>
         <button id="grill-button" type="button" >Click me!</button>
@@ -99,7 +100,7 @@
     <h1>Expiration Timers</h1>
     <div id="expiration">
         <button id="exp-button" type="button" >Click me!</button>
-    </div>
+    </div> -->
 
 </body>
 <script type ="text/javascript" src="js/app.js"></script>
